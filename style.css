@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./imges/1.jpg");
+    background-size: cover;
+}
+
+/* input */
+.main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.main-form{
+    width: 40%;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.main-form-table {
+    gap:15px
+}
+.main-form-input p{
+    color: #F87474;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-form-input input{
+    width: 200px;
+    height: 25px;
+    outline: none;
+}
+.main-form-button{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.main-form-button button{
+    padding: 5px 10px;
+    background-color: #FFB562;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+/* table */
+.main-right{
+    width: 50%;
+    height: 60vh;
+    border: 1px solid black; 
+    display: flex;
+    flex-direction: column; 
+}
+.table{
+    width: 100%;
+    margin: 15px auto;
+    border-collapse: collapse;
+   
+  }
+  .table > thead{
+    background-color: crimson;
+  }
+  
+  .table th, table td {
+    border: 2spx solid white;
+  }
+  .table-main{
+    color: black;
+    background-color: #FFB562;
+  }
